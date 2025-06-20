@@ -1,0 +1,8 @@
+<div class="w-3/4">
+  <div class="flex justify-between center mb-4">
+    <h1 class="text-2xl font-semibold">Add a new book</h1>
+    <%= link_to "<-- Back", books_path, class: "border-gray-700 border-l-1 text-center text-gray-500 px-1 py-1 rounded-md" %>
+  </div>
+  <hr class="mb-4">
+  <%= render partial: 'form', locals: {submit_text: 'Save'}%>
+</div>
